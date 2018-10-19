@@ -1,0 +1,69 @@
+
+header {
+  background: rgb(254, 195, 172);
+  padding: 15px;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header li {
+  display: inline-block;
+  border: 1px dotted #ffffff;
+  margin: 5px;
+  padding: 5px
+}
+
+header a {
+  text-decoration: none;
+  color : #ffffff;
+  padding: 12px;
+  display: block;
+}
+
+.hero {
+  background: rgb(254, 195, 172) url('images/bg-xl-1440.jpg') top center no-repeat;
+  color : #fff;
+}
+
+section {
+  min-height: 90vh;
+  padding: 20px;
+}
+
+.odd {
+  background: rgb(255, 134, 106);
+}
+
+.even {
+  background: rgb(173, 79, 9);
+}
+
+
+.image-block img {
+  width : 100%;
+display:block;
+}
+
+
+footer {
+  color : #fff;
+    background: rgb(254, 195, 172);
+    padding: 15px;
+}
+
+p{
+  padding: 5px;
+  margin: 5px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  display: inline-block;
+  border: 1px dotted #ffffff;
+  margin: 5px;
+  padding:5px;
+}
