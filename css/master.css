@@ -1,69 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poor+Story');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto+Mono');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Alegreya');
 
 header {
-  background: rgb(254, 195, 172);
-  padding: 15px;
-}
-
-header ul {
-  list-style-type: none;
+background: rgb(200, 173, 127);
+padding: 30px;
+margin-bottom: 8px;
 }
 
 header li {
-  display: inline-block;
-  border: 1px dotted #ffffff;
-  margin: 5px;
-  padding: 5px
+display: inline-block;
+color: #ffffff;
+border: 1px dotted #ffffff;
+padding: 3px;
+margin: 12px;
 }
 
 header a {
-  text-decoration: none;
-  color : #ffffff;
-  padding: 12px;
-  display: block;
+color : pink;
 }
 
-.hero {
-  background: rgb(254, 195, 172) url('images/bg-xl-1440.jpg') top center no-repeat;
-  color : #fff;
+.hero{
+background: rgb(05, 0, 0) url("image/esope.jpg") top center no-repeat;
+background-size: cover;
+background-attachment: inherit;
+color: #ffffff;
+min-height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
-section {
-  min-height: 90vh;
-  padding: 20px;
+.hero h1{
+font-family: 'Playfair Display', serif;
+font-size: 3em;
+background: rgba(200, 173, 127, 0.8);
+padding: 20px;
 }
 
-.odd {
-  background: rgb(255, 134, 106);
+section{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+section{
+  margin-bottom: 8px;
+  margin-top: 8px;
+  min-height: 50vh;
+  padding: 25px;
 }
 
 .even {
-  background: rgb(173, 79, 9);
+  flex-direction: row-reverse;
 }
 
-
-.image-block img {
-  width : 100%;
-display:block;
+.image-block img{
+  width: 100%;
+  display: block;
 }
 
+figcaption{
+  font-family: 'Playfair Display', serif;
+  font-style: normal ;
+}
 
-footer {
-  color : #fff;
-    background: rgb(254, 195, 172);
-    padding: 15px;
+body{
+  font-family: 'Poor Story', cursive;
+  font-weight: 200;
+  line-height: 1.25;
 }
 
 p{
-  padding: 5px;
-  margin: 5px;
+  margin-bottom: 1em;
 }
 
-footer ul {
-  list-style-type: none;
+h1,h2,h3,h4,h5{
+margin: 1em;
+font-weight: inherit;
+line-height: 1.5;
 }
-footer li {
-  display: inline-block;
-  border: 1px dotted #ffffff;
-  margin: 5px;
-  padding:5px;
+
+h1{
+font-family: 'Playfair Display', serif;
+margin-top: 0;
+font-size: 2.5em;
+text-align: left;
+}
+
+h2{
+  font-family: 'Crimson Text', serif;
+  margin-top: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h3{
+  font-family: 'Inconsolata', monospace;
+  margin-top: 0;
+  font-size: 2.5em;
+  text-align: right;
+}
+
+h4{
+  font-family: 'Abril Fatface', cursive;
+  margin-top: 0;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+h5{
+  font-family: 'Alegreya', serif;
+  margin-top: 0;
+  font-size: 2.5em;
+  text-align: left;
+}
+
+.odd{
+background: rgb(233, 201, 177);
+}
+
+.even{
+background: rgb(255, 127, 0);
+}
+
+footer {
+background: rgb(200, 173, 127);
+padding: 30px;
+margin-top: 8px;
+}
+
+footer ul{
+list-style-type: center;
+}
+
+footer li{
+display: inline-block;
+color: #ffffff;
+margin: 12px;
+padding: 1px;
+border: 1px dotted #ffffff
 }
